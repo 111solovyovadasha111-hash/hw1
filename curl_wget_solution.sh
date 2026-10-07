@@ -17,6 +17,5 @@ while true; do
     break # если ссылка не найдена, финальная страница выведется в stderr
   fi
   mapfile -d '' -t args < "$TMP/args" # записываем файл в массив
-#  echo "${args[2]}"
   html=$(fetch "${args[@]}")
 done
