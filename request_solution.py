@@ -14,13 +14,13 @@ from bs4 import BeautifulSoup
 
 class Query:
     def __init__(self, type, address):
-        self.type = type #+
-        self.address = address #+
-        self.cookie = None #+
-        self.headers = None #+
-        self.forms = None #+
+        self.type = type
+        self.address = address
+        self.cookie = None
+        self.headers = None
+        self.forms = None
         self.params = None
-        self.file_content = None #+
+        self.file_content = None
 
 
 def parse_html_1(html):
